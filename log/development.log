@@ -321,3 +321,37 @@ Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/style.self-c475ac3eb5694552f0cef0b3a6c4e5c87806879e204d9f03aa5042ed84c4e912.css?body=1" for 127.0.0.1 at 2021-04-19 00:53:43 +0900
+
+
+Started GET "/boards" for 127.0.0.1 at 2021-04-19 08:22:43 +0900
+Processing by BoardsController#index as HTML
+  [1m[35mBoard Load (11.5ms)[0m  SELECT `boards`.* FROM `boards`
+  Rendered boards/index.html.erb within layouts/application (41.5ms)
+Completed 200 OK in 150ms (Views: 108.5ms | ActiveRecord: 17.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateBulletins (20210418232312)
+  [1m[35m (31.3ms)[0m  CREATE TABLE `bulletins` (`id` int(11) auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20210418232312')
+  [1m[36m (11.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.8ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (1.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'web_record'
+  AND fk.table_name = 'boards'
+[0m
+  [1m[35m (0.4ms)[0m  SHOW CREATE TABLE `boards`
+  [1m[36m (1.2ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'web_record'
+  AND fk.table_name = 'bulletins'
+[0m
+  [1m[35m (0.6ms)[0m  SHOW CREATE TABLE `bulletins`
