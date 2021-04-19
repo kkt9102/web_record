@@ -1,4 +1,6 @@
-<%= form_for(@board) do |f| %>
+<script src="/assets/tui-editor/dist/tui-editor-Editor.min"></script>
+<script src="/assets/tui-editor/dist/tui-editor-extScrollSync.min"></script>
+<%= form_for([@bulletin, @board]) do |f| %>
   <% if @board.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@board.errors.count, "error") %> prohibited this board from being saved:</h2>

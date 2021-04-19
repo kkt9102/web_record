@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Boards</h1>
+<h1><%= @bulletin.title %></h1>
 
 <table>
   <thead>
@@ -16,9 +16,11 @@
       <tr>
         <td><%= board.title %></td>
         <td><%= board.content %></td>
-        <td><%= link_to 'Show', board %></td>
-        <td><%= link_to 'Edit', edit_board_path(board) %></td>
-        <td><%= link_to 'Destroy', board, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td>
+          <%= link_to 'Show', [board.bulletin, board], class:'btn' %>
+          <%= link_to 'Edit', edit_bulletin_board_path(board.bulletin, board), class:'btn' %>
+          <%= link_to 'Destroy', [board.bulletin, board], method: :delete, data: { confirm: 'Are you sure?' }, class:'btn' %>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +28,5 @@
 
 <br>
 
-<%= link_to 'New Board', new_board_path %>
+<%= link_to 'Home', root_path, class:'btn' %>
+<%= link_to 'New Board', new_bulletin_board_path, class:'btn' %>

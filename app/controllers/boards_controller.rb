@@ -1,10 +1,11 @@
 class BoardsController < ApplicationController
+  before_action :set_bulletin
   before_action :set_board, only: [:show, :edit, :update, :destroy]
 
   # GET /boards
   # GET /boards.json
   def index
-    @boards = Board.all
+    @boards = @bulletin.boards.all
   end
 
   # GET /boards/1
@@ -14,7 +15,7 @@ class BoardsController < ApplicationController
 
   # GET /boards/new
   def new
-    @board = Board.new
+    @board = @bulletin.boards.new
   end
 
   # GET /boards/1/edit
@@ -24,11 +25,11 @@ class BoardsController < ApplicationController
   # POST /boards
   # POST /boards.json
   def create
-    @board = Board.new(board_params)
+    @board = @bulletin.boards.new(board_params)
 
     respond_to do |format|
       if @board.save
-        format.html { redirect_to @board, notice: 'Board was successfully created.' }
+        format.html { redirect_to [@board.bulletin,@board], notice: 'Board was successfully created.' }
         format.json { render :show, status: :created, location: @board }
       else
         format.html { render :new }
@@ -42,7 +43,7 @@ class BoardsController < ApplicationController
   def update
     respond_to do |format|
       if @board.update(board_params)
-        format.html { redirect_to @board, notice: 'Board was successfully updated.' }
+        format.html { redirect_to [@board.bulletin,@board], notice: 'Board was successfully updated.' }
         format.json { render :show, status: :ok, location: @board }
       else
         format.html { render :edit }
@@ -62,9 +63,12 @@ class BoardsController < ApplicationController
   end
 
   private
+  def set_bulletin
+    @bulletin = Bulletin.find(params[:bulletin_id])
+  end
     # Use callbacks to share common setup or constraints between actions.
     def set_board
-      @board = Board.find(params[:id])
+      @board = @bulletin.boards.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

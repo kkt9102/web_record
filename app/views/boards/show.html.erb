@@ -1,3 +1,4 @@
+<script src="/assets/tui-editor/dist/tui-editor-Viewer.min"></script>
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -10,5 +11,5 @@
   <%= @board.content %>
 </p>
 
-<%= link_to 'Edit', edit_board_path(@board) %> |
-<%= link_to 'Back', boards_path %>
+<%= link_to 'Edit', edit_bulletin_board_path(@board.bulletin, @board), class:'btn' %> |
+<%= link_to 'Back', bulletin_boards_path, class:'btn' %>

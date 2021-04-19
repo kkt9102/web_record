@@ -13,4 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
+//= //require_tree .
+
+
+//= require jquery/dist/jquery
+//= require tui-code-snippet/dist/tui-code-snippet
+//= require markdown-it/dist/markdown-it
+//= require to-mark/dist/to-mark
+//= require codemirror/lib/codemirror
+//= require highlightjs/highlight.pack
+//= require squire-rte/build/squire
