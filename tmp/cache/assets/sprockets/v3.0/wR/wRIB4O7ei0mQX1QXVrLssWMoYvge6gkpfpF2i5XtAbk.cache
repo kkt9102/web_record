@@ -1,0 +1,21 @@
+I"®(function() {
+  App.TuiViewer = (function() {
+    function TuiViewer(el) {
+      this.el = el;
+      this.el.hide().after("<div id='" + this.el[0].id + "-viewer'></div>");
+    }
+
+    TuiViewer.prototype.render = function() {
+      return $("#" + this.el[0].id + "-viewer").tuiEditor({
+        viewer: true,
+        initialValue: this.el.text(),
+        height: 500
+      });
+    };
+
+    return TuiViewer;
+
+  })();
+
+}).call(this);
+:ET

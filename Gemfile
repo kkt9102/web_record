@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Toast ui
-gem 'tui_editor-rails'
+gem 'tui_editor-rails', '~> 1.0.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.11.3'

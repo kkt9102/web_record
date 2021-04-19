@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
 @import 'codemirror/lib/codemirror';
 @import 'highlightjs/styles/github';
 @import 'tui-editor/dist/tui-editor';

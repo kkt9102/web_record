@@ -1,0 +1,25 @@
+I"?(function() {
+  App.TuiEditor = (function() {
+    function TuiEditor(el) {
+      this.el = el;
+      this.el.hide().after("<div id='" + this.el[0].id + "-editor'></div>");
+      this.form = this.el.closest('form');
+    }
+
+    TuiEditor.prototype.render = function() {
+      return $("#" + this.el[0].id + "-editor").tuiEditor({
+        initialEditType: 'markdown',
+        initialValue: this.el.text(),
+        viewer: false,
+        previewStyle: 'vertical',
+        height: 500,
+        exts: ['scrollSync']
+      });
+    };
+
+    return TuiEditor;
+
+  })();
+
+}).call(this);
+:ET

@@ -1,0 +1,24 @@
+I"­(function() {
+  $(document).on("turbolinks:load", function() {
+    var tui_editor;
+    if (!($(".home.index, .boards.new, .boards.edit").length > 0)) {
+      return;
+    }
+    tui_editor = new App.TuiEditor($("[data-editor='tui-editor']"));
+    tui_editor.render();
+    return tui_editor.form.submit(function(event) {
+      return tui_editor.el.text($("#" + tui_editor.el[0].id + "-editor").tuiEditor('getValue'));
+    });
+  });
+
+  $(document).on("turbolinks:load", function() {
+    var tui_viewer;
+    if (!($(".boards.show").length > 0)) {
+      return;
+    }
+    tui_viewer = new App.TuiViewer($("[data-viewer='tui-viewer']"));
+    return tui_viewer.render();
+  });
+
+}).call(this);
+:ET

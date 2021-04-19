@@ -2141,3 +2141,2545 @@ Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-
 
 
 Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 14:08:03 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 14:16:59 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.8ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (29.2ms)
+  Rendered boards/new.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 956ms (Views: 908.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.self-9f960b6a04d1ffa48109948c6782748d4e00ebc58a0734cd80807f44aed3e106.js?body=1" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 14:17:00 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 14:17:01 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (6.6ms)
+  Rendered boards/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 118ms (Views: 108.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 14:17:02 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.8ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (3.9ms)
+  Rendered boards/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 74ms (Views: 70.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 14:17:29 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:22:56 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (48.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  Rendered common/_menu_bar.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 569ms (Views: 556.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dae5c5da7223ce739ad497817a3df9ba2fa2840da302653b11558b4f7d98bfc3.css?body=1" for 127.0.0.1 at 2021-04-19 15:22:59 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:23:20 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (4.6ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (3.1ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 170ms (Views: 44.3ms | ActiveRecord: 33.5ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:23:22 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.4ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (75.9ms)
+  Rendered boards/new.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 132ms (Views: 125.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:27:38 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (3.5ms)
+  Rendered boards/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 52ms (Views: 43.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:27:45 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.7ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (3.9ms)
+  Rendered boards/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:28:07 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (2.5ms)
+  Rendered boards/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 50ms (Views: 44.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:28:13 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.8ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (4.2ms)
+  Rendered boards/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 28ms (Views: 24.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:28:24 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (2.3ms)
+  Rendered boards/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 52ms (Views: 43.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 15:28:33 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.4ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (3.7ms)
+  Rendered boards/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 53ms (Views: 48.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:30:37 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.7ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 36ms (Views: 28.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:30:38 +0900
+Processing by HomeController#index as HTML
+  Rendered common/_menu_bar.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:30:40 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (2.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35mBoard Load (2.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2
+  Rendered boards/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 71ms (Views: 61.0ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:30:41 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  Rendered boards/_form.html.erb (3.6ms)
+  Rendered boards/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:31:56 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (2.5ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  [1m[36mBoard Load (1.9ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2[0m
+  Rendered boards/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 46ms (Views: 36.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:31:56 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (2.3ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  [1m[36mBoard Load (2.2ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2[0m
+  Rendered boards/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 80ms (Views: 70.3ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:32:00 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (1.1ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  Rendered boards/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.1ms)
+
+SyntaxError (/home/kkt/project/web_record/app/views/boards/index.html.erb:32: syntax error, unexpected tINTEGER, expecting ')'
+...buffer.append=( link_to 'New' 1'Post', new_bulletin_board_pa...
+...                               ^
+/home/kkt/project/web_record/app/views/boards/index.html.erb:32: syntax error, unexpected ',', expecting ')'
+...append=( link_to 'New' 1'Post', new_bulletin_board_path, cla...
+...                               ^):
+  app/views/boards/index.html.erb:32: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/boards/index.html.erb:32: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (71.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.6ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:32:06 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (1.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35mBoard Load (3.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2
+  Rendered boards/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 58ms (Views: 50.8ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:35:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (2.5ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35mBoard Load (2.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2
+  Rendered boards/index.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 87ms (Views: 77.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:46:33 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (1.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35mBoard Load (0.7ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2
+  Rendered boards/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 1476ms (ActiveRecord: 1.8ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :bulletin_id=>"2", :controller=>"boards"} missing required keys: [:id]):
+     6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body class="<%= controller_name %> <%= bulletin_board_path %>">
+    10: 
+    11: <%= yield %>
+    12: 
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb___4072145367726948615_70000198895240'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.7ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.4ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (0.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35mBoard Load (1.2ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2
+  Rendered boards/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 80ms (Views: 75.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-297e4b6912d0827789d7eaa95a7d0c62d2d9164f7a9a03863d2b065601f322ff.css?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/app.tui_editor.self-c2556e9d771a20f85607a2f3366d10828aec2229e8db3339929d8213c2d45895.js?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/app.tui_viewer.self-704094915ef3d8b9b9f46597396ff6392c525728cd8d52d6c070f6eb58e56cf4.js?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/init.self-c5f1a5873027c3cb0a923f8a2ff697776eb3222c066a25f9dc6460bc08a4c514.js?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/boards.self-27df2b1b7555d079d3c4f10437d730792d980461dcf5f4a2372d878877d30a0a.js?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/boards" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 15:47:21 +0900
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:47:23 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (1.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  Rendered boards/_form.html.erb (5.5ms)
+  Rendered boards/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 94ms (Views: 88.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 15:47:23 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 15:47:23 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 15:47:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 15:47:28 +0900
+
+
+Started GET "/assets/boards" for 127.0.0.1 at 2021-04-19 15:47:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 15:47:28 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 15:47:28 +0900
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (2.9ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  Rendered boards/_form.html.erb (3.8ms)
+  Rendered boards/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 118ms (Views: 109.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/boards" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 15:50:56 +0900
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:51:27 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (2.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  Rendered boards/_form.html.erb (5.7ms)
+  Rendered boards/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 149ms (Views: 140.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 15:51:27 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/assets/boards" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 15:51:28 +0900
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:52:24 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (1.0ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  Rendered boards/_form.html.erb (7.1ms)
+  Rendered boards/new.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 411ms (Views: 403.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/bulletins/2/boards/new" for 127.0.0.1 at 2021-04-19 15:54:37 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[36mBulletin Load (1.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  Rendered boards/_form.html.erb (5.0ms)
+  Rendered boards/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 49ms (Views: 41.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/bulletins/2/boards" for 127.0.0.1 at 2021-04-19 15:54:38 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"2"}
+  [1m[35mBulletin Load (0.7ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  [1m[36mBoard Load (1.6ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 2[0m
+  Rendered boards/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 25.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:54:41 +0900
+Processing by HomeController#index as HTML
+  Rendered common/_menu_bar.html.erb (1.5ms)
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 77ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2021-04-19 15:54:46 +0900
+Processing by BulletinsController#index as HTML
+  [1m[35mBulletin Load (2.5ms)[0m  SELECT `bulletins`.* FROM `bulletins`
+  Rendered bulletins/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 76ms (Views: 70.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/bulletins/new" for 127.0.0.1 at 2021-04-19 15:55:08 +0900
+Processing by BulletinsController#new as HTML
+  Rendered bulletins/_form.html.erb (3.6ms)
+  Rendered bulletins/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/bulletins" for 127.0.0.1 at 2021-04-19 15:55:18 +0900
+Processing by BulletinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nxrPjCM0WYInP1aRuYxaLxe0OjtNipdlTNLJ5nozJTYGtIOL5VkDK1PbXIhGCtnhTSR7N5YYoojy3BUIshc72g==", "bulletin"=>{"title"=>"JavaScript", "description"=>"JavaScript Board"}, "commit"=>"Create Bulletin"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO `bulletins` (`title`, `description`, `created_at`, `updated_at`) VALUES ('JavaScript', 'JavaScript Board', '2021-04-19 06:55:18', '2021-04-19 06:55:18')
+  [1m[36m (7.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/bulletins/3
+Completed 302 Found in 19ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/bulletins/3" for 127.0.0.1 at 2021-04-19 15:55:18 +0900
+Processing by BulletinsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mBulletin Load (1.1ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 3 LIMIT 1
+  Rendered bulletins/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 27.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2021-04-19 15:55:20 +0900
+Processing by BulletinsController#index as HTML
+  [1m[36mBulletin Load (2.4ms)[0m  [1mSELECT `bulletins`.* FROM `bulletins`[0m
+  Rendered bulletins/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 84ms (Views: 79.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/bulletins/2/edit" for 127.0.0.1 at 2021-04-19 15:55:22 +0900
+Processing by BulletinsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBulletin Load (0.6ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1
+  Rendered bulletins/_form.html.erb (1.6ms)
+  Rendered bulletins/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 30ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/bulletins/2" for 127.0.0.1 at 2021-04-19 15:55:26 +0900
+Processing by BulletinsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JkY+NKsui+07Dqjgn8D4YTQRi/SYAHCxiPZR8bgmw0K/6HIzbUPRRE/qovlgRnuvboHK+EOSRVw2+I0fcALdrg==", "bulletin"=>{"title"=>"CSS", "description"=>"CSS Board"}, "commit"=>"Update Bulletin", "id"=>"2"}
+  [1m[36mBulletin Load (1.4ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36mSQL (18.2ms)[0m  [1mUPDATE `bulletins` SET `description` = 'CSS Board', `updated_at` = '2021-04-19 06:55:27' WHERE `bulletins`.`id` = 2[0m
+  [1m[35m (12.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/bulletins/2
+Completed 302 Found in 52ms (ActiveRecord: 32.8ms)
+
+
+Started GET "/bulletins/2" for 127.0.0.1 at 2021-04-19 15:55:27 +0900
+Processing by BulletinsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBulletin Load (2.0ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 2 LIMIT 1[0m
+  Rendered bulletins/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 72ms (Views: 65.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/bulletins" for 127.0.0.1 at 2021-04-19 15:55:28 +0900
+Processing by BulletinsController#index as HTML
+  [1m[35mBulletin Load (1.6ms)[0m  SELECT `bulletins`.* FROM `bulletins`
+  Rendered bulletins/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 78ms (Views: 74.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:55:32 +0900
+Processing by HomeController#index as HTML
+  Rendered common/_menu_bar.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:55:34 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 79ms (Views: 70.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:55:59 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.0ms)
+  Rendered common/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:56:39 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (3.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.0ms)
+  Rendered common/_menu_bar.html.erb (0.6ms)
+Completed 200 OK in 45ms (Views: 37.5ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:56:40 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered common/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:57:32 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+  Rendered common/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:58:01 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered common/_menu_bar.html.erb (6.5ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-605e34d3adc87bf8e596dd0db24b36e91af2aa390bb9221069709013575fac04.css?body=1" for 127.0.0.1 at 2021-04-19 15:58:01 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:58:07 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered common/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 15:58:30 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered common/_menu_bar.html.erb (0.9ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-4b65cc6be0622971e00e53fe873573de092c278601230fc3aeef235eb296b427.css?body=1" for 127.0.0.1 at 2021-04-19 15:58:30 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:58:35 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.0ms)
+  Rendered common/_menu_bar.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 55.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 15:58:43 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.5ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.4ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (9.3ms)
+  Rendered common/_menu_bar.html.erb (1.4ms)
+Completed 200 OK in 102ms (Views: 93.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:09:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.7ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.0ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (13.1ms)
+Completed 500 Internal Server Error in 265ms (ActiveRecord: 6.9ms)
+
+ActionView::Template::Error (couldn't find file 'activestorage' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:20
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (34.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (21.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.4ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:10:50 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (2.7ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.9ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 4.7ms)
+
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:14
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.6ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:11:42 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.9ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.7ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 2.6ms)
+
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.6ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:12:12 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.6ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (0.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms)
+
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.0ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (35.9ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:12:54 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.8ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (2.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 4.7ms)
+
+ActionView::Template::Error (couldn't find file 'rails-ujs' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (47.7ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:12:59 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.2ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.3ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 2.5ms)
+
+ActionView::Template::Error (couldn't find file 'activestorage' with type 'application/javascript'
+Checked in these paths: 
+  /home/kkt/project/web_record/app/assets/images
+  /home/kkt/project/web_record/app/assets/javascripts
+  /home/kkt/project/web_record/app/assets/stylesheets
+  /home/kkt/project/web_record/vendor/assets/javascripts
+  /home/kkt/project/web_record/vendor/assets/stylesheets
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/jquery-rails-4.4.0/vendor/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/tui_editor-rails-1.0.2.0/vendor/assets/components
+  /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>WebRecord</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/javascripts/application.js:22
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__3083327097608812202_69848054900000'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.8ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:13:05 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.6ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (0.6ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (2.2ms)
+  Rendered common/_menu_bar.html.erb (0.7ms)
+Completed 200 OK in 1150ms (Views: 1147.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-c234eff410df64696cf692eb5758b8624f96645b2a400f5504c80a4d9432b70c.js?body=1" for 127.0.0.1 at 2021-04-19 16:13:06 +0900
+
+
+Started GET "/assets/application.self-c24f6ba7de3951678d83f7359e8e9f575ab72938f9ad53ff445e4d6ddc9bc37d.css?body=1" for 127.0.0.1 at 2021-04-19 16:13:06 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:13:06 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:13:06 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:13:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:13:07 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 16:13:08 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (2.0ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (35.9ms)
+  Rendered boards/new.html.erb within layouts/application (39.7ms)
+  Rendered common/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 108ms (Views: 100.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 16:13:08 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 16:13:08 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:13:12 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:13:12 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:13:12 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:13:12 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 16:13:29 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (3.5ms)
+  Rendered boards/new.html.erb within layouts/application (6.2ms)
+  Rendered common/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 509ms (Views: 500.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-e5d5cca64271c4c8ebd7d72a4e34c6eb16e8f036b14a575d09fa3fbb5df6f25e.js?body=1" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:13:30 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (2.1ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  Rendered boards/_form.html.erb (3.0ms)
+  Rendered boards/new.html.erb within layouts/application (4.3ms)
+  Rendered common/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 126ms (Views: 120.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-extScrollSync.min" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-Editor.min" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:15:30 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:17:08 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.5ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (9.9ms)
+  Rendered common/_menu_bar.html.erb (1.6ms)
+Completed 200 OK in 123ms (Views: 112.3ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:18:07 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 2.9ms)
+
+ActionView::Template::Error (Missing partial boards/_menu_bar, application/_menu_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/kkt/project/web_record/app/views"
+):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <%= render 'menu_bar' %>
+    11: <%= yield %>
+    12: 
+    13: </body>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__3083327097608812202_69848062563460'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (22.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.8ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:18:19 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 4.9ms)
+
+ActionView::Template::Error (Missing partial boards/_menu_bar, application/_menu_bar with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/kkt/project/web_record/app/views"
+):
+     7:   <%= csrf_meta_tags %>
+     8: </head>
+     9: <body>
+    10: <%= render 'menu_bar' %>
+    11: <%= yield %>
+    12: 
+    13: </body>
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__3083327097608812202_69848062563460'
+
+
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.11.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (19.9ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/kkt/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (39.2ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:18:26 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.4ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.2ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_menu_bar.html.erb (1.2ms)
+Completed 200 OK in 43ms (Views: 38.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:18:27 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:18:27 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:18:27 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:18:27 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:18:35 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:18:35 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:18:35 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:18:35 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:18:58 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 74ms (Views: 67.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:18:58 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:18:58 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:18:58 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:18:58 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:19:09 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 31.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:19:09 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:19:09 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:19:09 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:19:10 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:19:19 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 30.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:19:19 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:19:19 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:19:19 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:19:19 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:19:53 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.6ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:19:53 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:19:53 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:19:53 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:19:53 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:19:59 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 36.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:19:59 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:19:59 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:19:59 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:19:59 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:20:20 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (3.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (11.7ms)
+  Rendered layouts/_menu_bar.html.erb (1.0ms)
+Completed 200 OK in 106ms (Views: 94.7ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:20:20 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:20:20 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:20:20 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:20:20 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:20:56 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.2ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.9ms)
+Completed 200 OK in 54ms (Views: 47.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:20:56 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:20:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:20:57 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:20:57 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (3.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.6ms)
+Completed 200 OK in 114ms (Views: 100.4ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/assets/style.self-55cc8b5f564585d7d4b518f883d4fcaf0e5dec932ea142db68ed5d7599c1cf55.css?body=1" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:21:39 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:21:40 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 47ms (Views: 39.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:21:41 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:21:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:21:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:21:41 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:21:42 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:21:42 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:21:42 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:21:42 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.5ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_menu_bar.html.erb (1.6ms)
+Completed 200 OK in 76ms (Views: 64.1ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/bulletins.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+
+
+Started GET "/assets/boards.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+
+
+Started GET "/assets/common.self-3952cf71653a25d78625691d6006e569377d9014e0f2200b2b367088e88377b7.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+
+
+Started GET "/assets/scaffolds.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:15 +0900
+
+
+Started GET "/assets/application.self-c24f6ba7de3951678d83f7359e8e9f575ab72938f9ad53ff445e4d6ddc9bc37d.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/style.self-55cc8b5f564585d7d4b518f883d4fcaf0e5dec932ea142db68ed5d7599c1cf55.css?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/turbolinks.self-569ee74eaa15c1e2019317ff770b8769b1ec033a0f572a485f64c82ddc8f989e.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/boards.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/bulletins.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:24:16 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:24:51 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.6ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 46ms (Views: 39.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:24:51 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:24:51 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:24:51 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:24:51 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_menu_bar.html.erb (2.3ms)
+Completed 200 OK in 68ms (Views: 64.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/style.self-6e1df970adade1f67a0dc5a85dde89cba9fde46a05594f6ce7cdaa9aa66294d4.css?body=1" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:25:21 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/style.self-3bbfbffce6de27700ebb289fdd2c8f41e1c0eb2015f628e9778022807962b3b3.css?body=1" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:25:28 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/style.self-8fa4e1c50ff599b01e1e498e0a75c94d46ddccccc0d274cb9ddd1c0214e5d367.css?body=1" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:25:55 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 45.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/style.self-665cd0a6b4b8e758f9217adfcd885921e0948e783823e1c66504803bac53403f.css?body=1" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:26:57 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:27:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 42.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.self-50ca8983bcd317b910f675a4d1f6e3f59d7256de761946754fd10d60a2d0d030.css?body=1" for 127.0.0.1 at 2021-04-19 16:27:16 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:27:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:27:16 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:27:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:27:16 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 59.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.self-dce4742a8677f90ca98c35a5b948bffcdff0b0512046259c239b7dab5f050a22.css?body=1" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:27:25 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 54.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/style.self-1d72ef7799c5261ab2c02579bf4f10a608bb8142d55ff82f56e207f3a59dea5b.css?body=1" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:27:56 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.0ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 41ms (Views: 35.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/style.self-aaa3ee2a901a4fd204f6afa8a6e105ddb072ce4cc0ccacff5bee93eb3afdde45.css?body=1" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:28:19 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.0ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 131ms (Views: 123.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.self-de197be3f36c283f68795d8b801e162d3348e09952761e30fffa062eaef4859d.js?body=1" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/assets/style.self-2cb3800e353d8142a6f8e90464a3ff850aefb70c3e6ab1bb88fc2e4e20733069.css?body=1" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:29:41 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_menu_bar.html.erb (1.5ms)
+Completed 200 OK in 156ms (Views: 147.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.self-9c4885ff80ab67e5ef03834c0ddaba14dddc346419240ee28fec2f27e5766581.js?body=1" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:29:59 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (3.4ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 150ms (Views: 137.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/application.self-fb310ea33a56d16109afa020563fc05eaf7fc67b6abb93cd719f14005a0d8147.js?body=1" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/assets/style.self-70fb8a85374e14d7cea660dde059f0241f5672059006edba201f8dc982aa548f.css?body=1" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:31:15 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:31:22 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 81ms (Views: 72.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 16:31:24 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu_bar.html.erb (2.0ms)
+Completed 200 OK in 57ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 16:31:40 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-cafe8e5e86f73d23ea18207dd34fa076e7ca825c9afac4d40db9f40edc0e6247.css?body=1" for 127.0.0.1 at 2021-04-19 16:31:41 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:31:41 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:31:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:31:41 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:31:41 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 99ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-723092a4ec18bc34633e9316d2651b129ef4a29d04a21a77a7e8232aba267a57.css?body=1" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:32:03 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:32:06 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.4ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.4ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 60.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.4ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_menu_bar.html.erb (1.8ms)
+Completed 200 OK in 137ms (Views: 123.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/common.self-f7c11ddbad63bbd8c0e37586eb225da764282016c58ffd61d3ba209b13f4c360.css?body=1" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:32:45 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:33:06 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.6ms)
+Completed 200 OK in 122ms (Views: 113.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/style.self-1ba1290e66282f325bbdf1b52f482c0d552ea421917997250cbfcbd088734aa7.css?body=1" for 127.0.0.1 at 2021-04-19 16:33:07 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:33:07 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:33:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:33:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:33:07 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 50.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.self-f7cf0230d89c53ab6275997d3d81629023542dfe5f3554ac91b9b7c1a00bf309.css?body=1" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:33:36 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:33:49 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:33:49 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:33:49 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:33:49 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:33:49 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:34:06 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.9ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 48.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/style.self-3a188f28959085621c8a402d5703fb1e4e2777b725638ae3fc158669fb85cf7b.css?body=1" for 127.0.0.1 at 2021-04-19 16:34:06 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:34:06 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:34:06 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:34:06 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:34:07 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/style.self-379b0227e85b8774cece6350869e8f147262b2d4ea17dda42fdada9e39ae60a5.css?body=1" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:34:16 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:34:53 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (13.6ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 62.2ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:34:54 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:34:54 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:34:54 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:34:54 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:38:59 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.2ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 47ms (Views: 39.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:39:00 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:39:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:39:00 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:39:00 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:39:06 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 36ms (Views: 31.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:39:06 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:39:06 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:39:06 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:39:06 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:40:10 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.6ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 122ms (Views: 112.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.self-ef2e048e2b1fbf9e168f5b275e07a1cf75e2cdd9090ca585d6f3dd944b771176.js?body=1" for 127.0.0.1 at 2021-04-19 16:40:11 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:40:11 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:40:11 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:40:11 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:40:11 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:40:33 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:40:33 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:40:33 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:40:33 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:43:07 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.3ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 48.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:43:07 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:43:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:43:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:43:07 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:43:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (3.5ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_menu_bar.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 33.7ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:43:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:43:15 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:43:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:43:15 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:43:55 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (0.6ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.7ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_menu_bar.html.erb (1.0ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:43:56 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:43:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:43:56 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:43:56 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:44:08 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.9ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_menu_bar.html.erb (1.0ms)
+Completed 200 OK in 39ms (Views: 34.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:44:08 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:44:08 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:44:08 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:44:08 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:45:26 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.2ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (2.1ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 46ms (Views: 37.9ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:45:26 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:45:26 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:45:26 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:45:26 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:46:51 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.7ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 38.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:46:52 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:46:52 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:46:52 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:46:52 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.7ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (5.0ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (14.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 97ms (Views: 81.1ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/assets/style.self-e9a6f79d4b5ad65662786f8a3ac76ced58887cce1f31d5e736f14929fb12b7f2.css?body=1" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:47:07 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.0ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.1ms)
+  Rendered layouts/_menu_bar.html.erb (0.7ms)
+Completed 200 OK in 67ms (Views: 59.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/style.self-a109920caec83484dafd45c4cc62442dd836349fbefe3d81c8b8bb7273e4dbaf.css?body=1" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:47:28 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:47:42 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.1ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.4ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 65.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/style.self-caf8a2e3b5476b103a8d1b0ba1ebf1678367f26fc22ad54a93ef516a410cb0c9.css?body=1" for 127.0.0.1 at 2021-04-19 16:47:43 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:47:43 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:47:43 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:47:43 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:47:43 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (1.3ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.4ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 57ms (Views: 49.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/style.self-3e75262436fb8338c8335dc62815dda9a6803e52e4abd6e397d161ed664a13e0.css?body=1" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:48:04 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:48:10 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.8ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (0.8ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 65ms (Views: 57.9ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/style.self-f3f6ece9d20a4a306e34b9fa9533d684eb009f0fdcaa0501039d122ecabaf916.css?body=1" for 127.0.0.1 at 2021-04-19 16:48:10 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:48:11 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:48:11 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:48:11 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:48:11 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:48:41 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.2ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  [1m[35mBoard Load (1.7ms)[0m  SELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1
+  Rendered boards/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.4ms)
+Completed 200 OK in 98ms (Views: 90.4ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/common.self-e8ed75ff2a52e3adfb0578301f74e7dd456ff1b1ab7370e1d100c728ce7029ef.css?body=1" for 127.0.0.1 at 2021-04-19 16:48:42 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:48:42 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:48:42 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:48:42 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:48:42 +0900
+
+
+Started GET "/bulletins/1/boards/new" for 127.0.0.1 at 2021-04-19 16:48:49 +0900
+Processing by BoardsController#new as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[36mBulletin Load (2.2ms)[0m  [1mSELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1[0m
+  Rendered boards/_form.html.erb (11.7ms)
+  Rendered boards/new.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_menu_bar.html.erb (1.5ms)
+Completed 200 OK in 88ms (Views: 80.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:48:55 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.8ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 43.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:48:55 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:48:55 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:48:55 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:48:55 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.9ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (2.2ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 53ms (Views: 48.4ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/style.self-5294c679278d953fa9233a1a7398cae882707ba80d0e5896db5b4b674c0c5c1d.css?body=1" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:49:26 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.0ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (0.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_menu_bar.html.erb (0.8ms)
+Completed 200 OK in 56ms (Views: 51.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/style.self-1f647a4a8b6efba9ca63628d3e4f7cff3d95f512ba6bddb634d259e34c623013.css?body=1" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:53:47 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:54:31 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.9ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.0ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_menu_bar.html.erb (0.3ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/style.self-3cfef9cab5fa13e586e3ff32db56f89014348c30bcf96e80d3fb6f4ed2d26287.css?body=1" for 127.0.0.1 at 2021-04-19 16:54:31 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:54:32 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:54:32 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:54:32 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:54:32 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.2ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (0.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_menu_bar.html.erb (0.9ms)
+Completed 200 OK in 62ms (Views: 52.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/common.self-1689d690e91ed44c3e43cc39474567e1d0513767db986fdd6183d30cef9ace8f.css?body=1" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 16:59:15 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 17:00:17 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (0.5ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (0.7ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_menu_bar.html.erb (0.7ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/style.self-05e77d1079d1edfc060fc442b33725eea626bf2a77d63b7a67b9911211d1c0c4.css?body=1" for 127.0.0.1 at 2021-04-19 17:00:18 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 17:00:18 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 17:00:18 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 17:00:18 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 17:00:18 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.3ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.8ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_menu_bar.html.erb (0.5ms)
+Completed 200 OK in 79ms (Views: 69.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/style.self-e9ff6bc28ac5110b0af422673a3276046a5d955200f1996789cc68a28ae69879.css?body=1" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 17:00:27 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 17:00:54 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.1ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.5ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_menu_bar.html.erb (1.5ms)
+Completed 200 OK in 58ms (Views: 53.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 17:00:54 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 17:00:54 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 17:00:54 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 17:00:54 +0900
+
+
+Started GET "/bulletins/1/boards" for 127.0.0.1 at 2021-04-19 17:02:23 +0900
+Processing by BoardsController#index as HTML
+  Parameters: {"bulletin_id"=>"1"}
+  [1m[35mBulletin Load (1.3ms)[0m  SELECT  `bulletins`.* FROM `bulletins` WHERE `bulletins`.`id` = 1 LIMIT 1
+  [1m[36mBoard Load (1.2ms)[0m  [1mSELECT `boards`.* FROM `boards` WHERE `boards`.`bulletin_id` = 1[0m
+  Rendered boards/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_menu_bar.html.erb (2.6ms)
+Completed 200 OK in 52ms (Views: 46.7ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/codemirror/lib/codemirror" for 127.0.0.1 at 2021-04-19 17:02:23 +0900
+
+
+Started GET "/assets/highlightjs/styles/github" for 127.0.0.1 at 2021-04-19 17:02:23 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor" for 127.0.0.1 at 2021-04-19 17:02:23 +0900
+
+
+Started GET "/assets/tui-editor/dist/tui-editor-contents" for 127.0.0.1 at 2021-04-19 17:02:23 +0900

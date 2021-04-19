@@ -1,3 +1,4 @@
+.con {max-width: 80%;}
 table {border:1px solid #999999; border-collapse: collapse;}
 th,td {border:1px solid #999999; padding:5px;}
 .menu_box_1 {border-bottom:1px solid #999999; height: 50px;}
@@ -5,5 +6,8 @@ th,td {border:1px solid #999999; padding:5px;}
 .btn {border:1px solid #999999; border-radius: 5px; padding: 3px;}
 .menu_box_1 ul {height: 100%;}
 .menu_box_1 ul li {position: relative;}
-.menu_box_1 ul li ul {display: none; position: absolute; top:100%; left:0; width: 100%;}
+.menu_box_1 ul li ul {display: none; position: absolute; top:100%; width: 100%; height:auto; white-space: nowrap; background:#ffffff; border:1px solid #999999;}
+.menu_box_1 ul li ul li:hover {font-weight: bold;}
+.menu_box_1 ul li ul li a {padding:10px; display: block;}
 .menu_box_1 ul li:hover > ul {display: block;}
+.menu_box_1 + * {padding-top: 50px;}

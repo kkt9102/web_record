@@ -1,5 +1,5 @@
 /* normalize */
-body,ul,ol,li,h1,h2,h3,h4,h5,h6 { margin:0; padding:0; list-style:none;}
+body,ul,ol,li,h1,h2,h3,h4,h5,h6,p { margin:0; padding:0; list-style:none;}
 a { color:inherit; text-decoration:none;}
 
 /* common */
@@ -32,13 +32,14 @@ a { color:inherit; text-decoration:none;}
 
 /* flex */
 .flex { display:flex;}
-.flex-1-0-0 { flex:1 0 0;}
+.flex_1_0_0 { flex:1 0 0;}
 .flex_wrap_no { flex-wrap:nowrap;}
 .flex_wrap_wrap { flex-wrap:wrap;}
 .flex_jc_sa { justify-content:space-around;}
 .flex_jc_sb { justify-content:space-between;}
 .flex_jc_se { justify-content:space-evenly;}
 .flex_jc_s { justify-content:flex-start;}
+.flex_jc_c {justify-content:center;}
 .flex_jc_e { justify-content:flex-end;}
 .flex_ai_c { display:flex; align-items:center;}
 .flex_ai_fs { align-items:flex-start;}
