@@ -11,7 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20210418233210) do
+ActiveRecord::Schema.define(version: 20210421030343) do
+
+  create_table "bhistories", force: :cascade do |t|
+    t.string   "ayear",      limit: 255
+    t.string   "amonth",     limit: 255
+    t.string   "acontent",   limit: 255
+    t.string   "uid",        limit: 255
+    t.string   "uipaddr",    limit: 255
+    t.string   "etc1",       limit: 255
+    t.string   "etc2",       limit: 255
+    t.string   "etc3",       limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
 
   create_table "boards", force: :cascade do |t|
     t.string   "title",       limit: 255

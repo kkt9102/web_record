@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
 
+  resources :bhistories
   resources :bulletins do
     resources :boards
   end
 
-  root 'history#test'
+  get 'history' => 'history#test'
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

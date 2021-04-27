@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Bhistories</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ayear</th>
+      <th>Amonth</th>
+      <th>Acontent</th>
+      <th>Uid</th>
+      <th>Uipaddr</th>
+      <th>Etc1</th>
+      <th>Etc2</th>
+      <th>Etc3</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bhistories.each do |bhistory| %>
+      <tr>
+        <td><%= bhistory.ayear %></td>
+        <td><%= bhistory.amonth %></td>
+        <td><%= bhistory.acontent %></td>
+        <td><%= bhistory.uid %></td>
+        <td><%= bhistory.uipaddr %></td>
+        <td><%= bhistory.etc1 %></td>
+        <td><%= bhistory.etc2 %></td>
+        <td><%= bhistory.etc3 %></td>
+        <td><%= link_to 'Show', bhistory %></td>
+        <td><%= link_to 'Edit', edit_bhistory_path(bhistory) %></td>
+        <td><%= link_to 'Destroy', bhistory, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bhistory', new_bhistory_path %>

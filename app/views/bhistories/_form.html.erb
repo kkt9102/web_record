@@ -1,0 +1,49 @@
+<%= form_for(@bhistory) do |f| %>
+  <% if @bhistory.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bhistory.errors.count, "error") %> prohibited this bhistory from being saved:</h2>
+
+      <ul>
+      <% @bhistory.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :ayear %><br>
+    <%= f.text_field :ayear %>
+  </div>
+  <div class="field">
+    <%= f.label :amonth %><br>
+    <%= f.text_field :amonth %>
+  </div>
+  <div class="field">
+    <%= f.label :acontent %><br>
+    <%= f.text_field :acontent %>
+  </div>
+  <div class="field">
+    <%= f.label :uid %><br>
+    <%= f.text_field :uid %>
+  </div>
+  <div class="field">
+    <%= f.label :uipaddr %><br>
+    <%= f.text_field :uipaddr %>
+  </div>
+  <div class="field">
+    <%= f.label :etc1 %><br>
+    <%= f.text_field :etc1 %>
+  </div>
+  <div class="field">
+    <%= f.label :etc2 %><br>
+    <%= f.text_field :etc2 %>
+  </div>
+  <div class="field">
+    <%= f.label :etc3 %><br>
+    <%= f.text_field :etc3 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
